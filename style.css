@@ -3,11 +3,17 @@ body{
 
 }
 
+#imagem{
+    display: flex;
+    gap: 20px;
+}
+
 div.fund{
    text-align: center;
 }
 
 #menu{
+    gap: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -29,11 +35,11 @@ div.fund{
 }
 
 a:link{
-    color: rgb(0, 0, 0);
+    color: rgb(113, 0, 243);
 }
 
 a:visited {
-    color: rgb(27, 26, 26);
+    color: rgb(67, 24, 87);
     
  }
 

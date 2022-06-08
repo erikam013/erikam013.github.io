@@ -4,12 +4,20 @@ body{
 }
 
 #imagem{
+    margin-top: 15px;
     display: flex;
     gap: 20px;
 }
 
 div.fund{
    text-align: center;
+}
+
+p{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
 }
 
 #menu{

@@ -14,6 +14,7 @@ div.fund{
      width: 100%;
      display: flex;
      justify-content: space-around;
+     list-style: none;
      padding-left: 0;
  }
  

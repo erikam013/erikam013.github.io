@@ -43,14 +43,13 @@ a{
 #botao{
     background-color: grey;
     border-radius: 10px;
-  color: black;
-  padding: 2px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
+    color: #fff;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
-
 
 #corpo{
    position: absolute;
@@ -62,6 +61,19 @@ a{
    margin-left:-250px;
    text-align: center;
 
+}
+
+#botaofinal button{
+    background-color:rgb(118, 118, 122);
+    color: #fff;
+    border:1px solid rgb(95, 95, 97);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin:3px;
+}
+
+#botaofinal button:hover{
+    background-color: rgb(16, 18, 26);
 }
 
 a:link{

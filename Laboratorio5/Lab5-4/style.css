@@ -2,9 +2,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
-h2, h3, h4{
-    font: arial;
-}
 
 header{
     margin: 90px 0 0 0;
@@ -16,7 +13,12 @@ header h2{
 header p{
     margin-top: 10px;
 }
-section .caixa{ 
+
+h2, h3, h4{
+    font: arial;
+}
+
+section .formato{ 
     padding: 30px 0px 30px 150px;
     border-top: 1px solid #aaa; 
     border-bottom: 1px solid #aaa;
@@ -31,7 +33,7 @@ section .box {
     width: 230px;
     margin: 0 10px 0 10px;
 }
-section .bola {
+section .circulo {
     border-radius: 30px;
     height: 45px;
     width: 45px;
@@ -39,7 +41,7 @@ section .bola {
     background-color: #ffffff;
     float: left;
 }
-section .texto{
+section .text{
     display: inline-block;
     margin-left: 10px;
 }
@@ -54,7 +56,7 @@ footer div{
     text-align: center;
 }
 
-#final button {
+#fim button {
     background-color:rgb(118, 118, 122);
     color: #fff;
     border:1px solid rgb(95, 95, 97);
@@ -62,6 +64,7 @@ footer div{
     padding: 10px 10px;
     margin:3px ;
 }
-#final button:hover{
-    background-color: rgb(17, 35, 34);
+
+#fim button:hover{
+    background-color: rgb(16, 18, 26);
 }
